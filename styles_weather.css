@@ -1,0 +1,38 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?sky,clouds') no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  width: 90%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 10px;
+  margin: 10px auto;   
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: block;      
+}
+
+
+#weather-data {
+  margin-top: 20px;
+}
